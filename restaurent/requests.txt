@@ -1,0 +1,19 @@
+{
+  "name": "The Gourmet Spot",
+  "cuisineType": "ITALIAN",
+  "address": "123 Main St, Anytown",
+  "priceRange": "MEDIUM",
+  "averageRating": 4.5
+}
+curl -X 'POST' \
+  'http://localhost:8080/restaurants' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "The Gourmet Spot",
+  "cuisineType": "ITALIAN",
+  "address": "123 Main St, Anytown",
+  "priceRange": "MEDIUM",
+  "averageRating": 4.5
+}
+'
